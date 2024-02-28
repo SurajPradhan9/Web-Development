@@ -1,0 +1,20 @@
+/* we target class in css using .(dot) */
+/* and for id we use #(hash) */
+
+.red {
+  color: red;
+}
+.bg-red {
+  background-color: yellow;
+}
+
+#firstdiv {
+  /* background-color: red; */
+}
+
+#seconddiv {
+  background-color: blue;
+}
+
+/* Using ID we can also do like this:
+search wikepedia coding-> search one particular heading -> inspect and copy Id->again in search type wikepedia coding#(and copied id) ->you will see the particular heading directly without searching it */

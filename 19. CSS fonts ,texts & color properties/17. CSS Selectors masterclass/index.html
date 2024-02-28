@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* element selector */
+      div {
+        background-color: red;
+      }
+      /* class selector */
+      .green {
+        background-color: green;
+      }
+
+      #blue {
+        background-color: blue;
+      }
+
+      /* child selector */
+      div > p {
+        color: pink;
+        background-color: black;
+      }
+
+      /* descendent selector */
+      div p {
+        color: blue;
+        background-color: black;
+      }
+
+      /* universal selector */
+      * {
+        margin: 10px;
+        padding: 10px;
+      }
+
+      /* pseudo Selectors */
+
+      a:visited {
+        color: pink;
+      }
+
+      a:link {
+        color: brown;
+      }
+
+      a:active {
+        color: black;
+      }
+
+      a:hover {
+        background-color: navajowhite;
+      }
+
+      p:first-child {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div>I am a Div</div>
+
+    <div class="green">I am a DIv</div>
+
+    <div id="blue">I am a DIv</div>
+
+    <div>
+      <p>lorem 5</p>
+    </div>
+
+    <div>
+      <article>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </article>
+    </div>
+
+    <a target="_blank" href="https://www.google.com">Google</a>
+  </body>
+</html>
